@@ -7,7 +7,8 @@ namespace PrimeFactorsTask
     {
         public static void Main()
         {
-            foreach (int num in GetFactors(60))
+            int value = Convert.ToInt32(Console.ReadLine());
+            foreach (int num in GetFactors(value))
             {
                 Console.Write(num + " ");
             }
